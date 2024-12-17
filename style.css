@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3e5f5;
+    color: #4a148c;
+    text-align: center;
+}
+
+header h1 {
+    color: #6a1b9a;
+    margin: 20px 0;
+}
+
+.game-container {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #ede7f6;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.timer {
+    font-size: 1.5em;
+    color: #7b1fa2;
+}
+
+.player {
+    background: #ce93d8;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.active {
+    border: 3px solid #ab47bc;
+    box-shadow: 0 0 15px #ab47bc;
+}
+
+.question-box {
+    margin: 20px 0;
+}
+
+#question {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.answer-btn {
+    background: #8e24aa;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.answer-btn:hover {
+    background: #6a1b9a;
+}
+
+.game-over {
+    display: none;
+}
+
+#restart-btn {
+    background: #7b1fa2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background: #4a148c;
+}
