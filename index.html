@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subreddit Conquest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Subreddit Conquest 🚀</h1>
+        </header>
+
+        <!-- Players Section -->
+        <div class="players">
+            <div class="player" id="player1">
+                🦸‍♂️ Player 1
+                <div id="player1-score">Score: 0</div>
+            </div>
+            <div class="timer" id="timer">Time Left: 30s</div>
+            <div class="player" id="player2">
+                🦸‍♀️ Player 2
+                <div id="player2-score">Score: 0</div>
+            </div>
+        </div>
+
+        <!-- Question Section -->
+        <div class="question-box">
+            <div id="question">Press Start to Play!</div>
+            <div class="answers">
+                <button class="answer-btn" id="answer-1"></button>
+                <button class="answer-btn" id="answer-2"></button>
+                <button class="answer-btn" id="answer-3"></button>
+            </div>
+        </div>
+
+        <!-- Game Over Section -->
+        <div class="game-over" id="game-over">
+            <h2 id="winner-message"></h2>
+            <button id="restart-btn">Restart Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
